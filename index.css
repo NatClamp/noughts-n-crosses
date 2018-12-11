@@ -1,0 +1,55 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-grid {
+  border: #000 solid 0.5px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+p {
+  padding: 0 0 15px 0;
+  display: inline;
+}
+
+.winners {
+  background-image: linear-gradient(to bottom right, rgb(9, 255, 0), white);
+  border: #000 solid 2px;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  text-align: center;
+  align-self: stretch;
+  padding-top: 25px;
+}
+
+.board:hover {
+  background-image: linear-gradient(to bottom right, grey, white);
+}
+
+.board {
+  padding-top: 25px;
+  border: #000 solid 2px;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+
+  /* text-align: center; */
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
+}

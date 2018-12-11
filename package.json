@@ -1,0 +1,23 @@
+{
+  "name": "noughts-n-crosses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatClamp/noughts-n-crosses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatClamp/noughts-n-crosses/issues"
+  },
+  "homepage": "https://github.com/NatClamp/noughts-n-crosses#readme",
+  "devDependencies": {
+    "cypress": "^3.1.3"
+  }
+}
